@@ -22,28 +22,10 @@ function App() {
   const surveyJson = {
     pages: [{
       name: "PersonalDetails",
-      elements: [{
+      elements: [ {
           type: "text",
-          name: "FirstName",
-          title: "Nombres y apellidos:"
-        }, {
-          type: "text",
-          name: "LastName",
+          name: "Identifcation",
           title: "Identificación:"
-        }, {
-          type: "panel",
-          name: "Contacts",
-          state: "collapsed",
-          title: "Contacts (optional)",
-          elements: [{
-            type: "text",
-            name: "Telegram",
-            title: "Telegram:"
-          }, {
-            type: "text",
-            name: "GitHub",
-            title: "GitHub username:"
-          }]
         }, {
           "type": "matrix",
           "name": "IdentificacionLaboral",
